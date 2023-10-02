@@ -7,7 +7,8 @@ function App() {
   const products = [
     { id: 1, name: 'Goldfish', price: 1.99 },
     { id: 2, name: 'Gummy Bears', price: 2.99 },
-    { id: 3, name: 'Yarn', price: 3.99 }
+    { id: 3, name: 'Yarn', price: 3.99 },
+    { id: 4, name:"Blanket", price: 4.99}
   ];
 
   const style = ({ isActive }) => ({ 
