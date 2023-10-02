@@ -4,7 +4,10 @@ import Products from "./Components/Products";
 import About from "./Components/About";
 
 function App() {
-  const style = { paddingLeft: '.5rem' };
+  const style = ({ isActive }) => ({ 
+    paddingLeft: '.5rem',
+    fontWeight: isActive ? 'bold' : 'normal',
+  });
   return (
     <div>
       <h1>React Router</h1>
